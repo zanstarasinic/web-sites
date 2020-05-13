@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #F2F2F2;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    margin: 5% 0 3% 0;
+}
+.nav-bar {
+    margin-top: 5px;
+    background-color: red;
+    width: 61%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+}
+header ul {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    margin: auto;
+    padding-top: 4px;
+}
+li {
+    list-style-type: none;
+
+}
+header li a{
+    font-weight: bolder;
+    color: rgb(224, 224, 224);
+}
+
+.slika {
+    width: 61%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    height: 250px;
+}
+.slika img {
+    margin: 1.5% auto;
+    display: block;
+    padding-top: 17px;
+}
+main {
+    display: flex;
+    width: 61%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.levi-podatki {
+    background-color: white;
+    margin-top: 1.5%;
+    padding: 3%;
+    width: 22%;
+    height: 700px;
+}
+
+.levi-podatki p  {
+    margin-bottom: 15%;
+}
+
+.linki li{
+    padding-bottom: 5%;
+    padding-top: 5%;
+    border-bottom: 2px dotted rgb(61, 61, 61);
+    
+}
+.linki a {
+    color: #9A0000;
+}
+
+.linki li:last-child {
+    border-bottom: none;
+}
+
+.glavni-podatki {
+    background-color: white;
+    margin: 1.5% 1.5% 0 1.5%;
+    width: 50%;
+    height: 900px;
+}
+
+.tabela {
+    border: 2px solid rgb(211, 211, 211);
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+
+table {
+    border: 1px solid red;
+    width: 96%;
+    margin: 2%;
+}
+table tr td {
+    text-align: center;
+    color: rgb(224, 224, 224);
+}
+
+tr:nth-child(odd) td {
+    background-color: #808080;
+}
+
+tr:nth-child(even) td {
+    background-color: #B9B9B9;
+}
+
+td {
+    margin: 1px;
+}
+
+.welcome {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-left: 4%;
+}
+
+.slika-text {
+    display: flex;
+    margin-top: 2%;
+}
+
+.slika-text img {
+    margin-left: 4%;
+}
+.slika-text p {
+    margin-left: 5%;
+}
+
+.stolpci {
+    display: flex;
+    margin: 12% 5% 0 5%;
+
+}
+
+.mednaslov {
+    margin-bottom: 20%;
+}
+
+.levi-stolpec p{
+    margin-bottom: 15%;
+}
+.vrstica {
+    display: flex;
+    margin: 14% 0 0 0;
+    padding-bottom: 15%;
+    border-bottom: 2px dotted black;
+}
+
+.vrstica:last-child {
+    border-bottom: none;
+}
+
+.vrstica img {
+    width: 75px;
+    height: 75px;
+}
+.vrstica p {
+    margin-left: 5%;
+}
+
+.desni-stolpec {
+    margin-left: 7%;
+}
+
+.desni-podatki {
+    background-color: white;
+    margin-top: 1.5%;
+    padding: 3%;
+    height: 700px;
+}
+
+.desni-podatki img {
+    width: 220px;
+    height: 70px;
+    margin-bottom: 5%;
+}
+
+.desni-podatki p {
+    margin-bottom: 15%;
+}
+
+footer {
+    margin-top: 5%;
+    margin-bottom: 0.5%;
+    width: 61%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-color: #808080;
+    padding: 0 1% 1% 1%;
+}
+
+footer div {
+    margin-top: 3%;
+}
+.b {
+    margin: 0 0 2% 0;
+    text-shadow: 1px 1px rgb(46, 46, 46);
+}
+footer div p {
+    text-shadow: 1px 1px rgb(46, 46, 46);
+}
+
+footer p, a {
+    color: rgb(224, 224, 224);
+}
+
+footer .desni {
+    margin-left: 5%;
+}
+
+footer .linki a {
+    color: rgb(224, 224, 224);
+}
+
+footer .linki li {
+    border-bottom: 2px dotted rgb(177, 177, 177);
+    width: 150%;
+    text-shadow: 1px 1px rgb(46, 46, 46);
+}
+
+
+
+
