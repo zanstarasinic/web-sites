@@ -1,3 +1,5 @@
-# websites
-Store and list of website frames and whole web applications
-Some of them are based on school work, other my personal projects
+# Info
+Website frame with dummy text, slovenian names and codes, created for school project.
+
+#Informacije
+Okvir spletne strani z dummy tekstom, napisana v slovenščini. Narejena je bila za šolski projekt
